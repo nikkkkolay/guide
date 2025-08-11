@@ -1,3 +1,12 @@
+import "./style.css";
+
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SplitText } from "gsap/SplitText";
+import * as bootstrap from "bootstrap";
+
+gsap.registerPlugin(ScrollTrigger, SplitText);
+
 const scrollBtn = document.querySelector(".scroll-up-btn");
 
 scrollBtn.addEventListener("click", () => {
@@ -8,10 +17,11 @@ scrollBtn.addEventListener("click", () => {
 });
 
 window.addEventListener("load", () => {
-    gsap.registerPlugin(ScrollTrigger, SplitText);
-
     let tl = gsap.timeline();
-    let split = SplitText.create(".split", { type: "words,lines", mask: "words" });
+    let split = SplitText.create(".split", {
+        type: "words,lines",
+        mask: "words",
+    });
     const strength = 15;
     const words = ["Открывай.", "Создавай.", "Достигай."];
 
@@ -46,7 +56,7 @@ window.addEventListener("load", () => {
         }
     );
 
-    dates.forEach((date, _) => {
+    dates.forEach((date) => {
         ScrollTrigger.create({
             trigger: date,
             start: "top center",
@@ -57,8 +67,8 @@ window.addEventListener("load", () => {
     });
 
     function moveDotTo(target) {
-        const offset = target.getBoundingClientRect().top + window.scrollY;
-        const containerOffset = document.querySelector(".timeline").getBoundingClientRect().top + window.scrollY;
+        const offset = target.getBoundingClientRect().top;
+        const containerOffset = document.querySelector(".timeline").getBoundingClientRect().top;
         const relativeTop = offset - containerOffset + 7;
 
         gsap.to(dot, {
@@ -98,43 +108,43 @@ window.addEventListener("load", () => {
         });
     });
 
-    words.forEach((word, _) => {
-        tl.to(wordElement, {
-            duration: 0.3,
-            opacity: 0,
-            scale: 0.7,
-            ease: "power2.in",
-            onComplete: () => (wordElement.textContent = word),
-        });
+    // words.forEach((word) => {
+    //     tl.to(wordElement, {
+    //         duration: 0.3,
+    //         opacity: 0,
+    //         scale: 0.7,
+    //         ease: "power2.in",
+    //         onComplete: () => (wordElement.textContent = word),
+    //     });
 
-        tl.fromTo(
-            wordElement,
-            { opacity: 0, scale: 1.1 },
-            {
-                duration: 0.35,
-                opacity: 1,
-                scale: 1,
-                ease: "power2.out",
-            }
-        );
+    //     tl.fromTo(
+    //         wordElement,
+    //         { opacity: 0, scale: 1.1 },
+    //         {
+    //             duration: 0.35,
+    //             opacity: 1,
+    //             scale: 1,
+    //             ease: "power2.out",
+    //         }
+    //     );
 
-        tl.to(wordElement, { duration: 0.6 });
-    });
+    //     tl.to(wordElement, { duration: 0.6 });
+    // });
 
-    tl.to("#loader-overlay", {
-        opacity: 0,
-        duration: 0.3,
-        ease: "power1.out",
-        onComplete: () => {
-            document.getElementById("loader-overlay").remove();
+    // tl.to("#loader-overlay", {
+    //     opacity: 0,
+    //     duration: 0.3,
+    //     ease: "power1.out",
+    //     onComplete: () => {
+    //         document.getElementById("loader-overlay").remove();
 
-            gsap.fromTo(".root", { opacity: 0, y: 70 }, { opacity: 1, y: 0, duration: 1, ease: "power2.out" });
-            gsap.from(split.words, {
-                duration: 1,
-                y: 100,
-                autoAlpha: 0,
-                stagger: 0.05,
-            });
-        },
-    });
+    //         gsap.fromTo(".root", { opacity: 0, y: 70 }, { opacity: 1, y: 0, duration: 1, ease: "power2.out" });
+    //         gsap.from(split.words, {
+    //             duration: 1,
+    //             y: 100,
+    //             autoAlpha: 0,
+    //             stagger: 0.05,
+    //         });
+    //     },
+    // });
 });
