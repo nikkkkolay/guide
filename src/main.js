@@ -1,9 +1,10 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 
 import gsap from "gsap";
+import "bootstrap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
-import * as bootstrap from "bootstrap";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
