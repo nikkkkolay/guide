@@ -1,6 +1,7 @@
 export default {
   extends: ["stylelint-config-standard"],
   plugins: ["stylelint-order"],
+  ignoreFiles: ["dist/**/*"],
   rules: {
     "order/properties-order": [
       [
@@ -9,6 +10,7 @@ export default {
         "justify-content",
         "align-items",
         "position",
+        "inset",
         "top",
         "right",
         "bottom",
