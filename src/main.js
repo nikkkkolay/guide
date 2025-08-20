@@ -88,7 +88,7 @@ window.addEventListener("load", () => {
 
   gsap.to(slogan, {
     backgroundPosition: "100% 0%",
-    duration: 5,
+    duration: 1,
     ease: "linear",
     repeat: -1,
     yoyo: true,

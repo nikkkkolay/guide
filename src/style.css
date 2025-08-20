@@ -73,7 +73,7 @@ header .content {
 .list-icon {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.7rem;
   list-style: none;
   padding: 0;
   margin-bottom: 0.5rem;
@@ -189,8 +189,10 @@ header .content {
 }
 
 .about img {
-  width: 100%;
+  width: 105%;
   max-width: 23.75rem;
+  height: 100%;
+  object-fit: cover;
 }
 
 .timeline {
@@ -354,6 +356,14 @@ header .content {
   object-position: 80%;
   width: 100%;
   height: 100%;
+}
+
+.dictionary ul li {
+  align-items: start;
+}
+
+.dictionary ul li img {
+  margin-top: 0.3rem;
 }
 
 .accordion-button {
