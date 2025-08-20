@@ -28,7 +28,7 @@ window.addEventListener("load", () => {
   const header = document.querySelector("header");
   const dates = document.querySelectorAll(".date");
   const dot = document.querySelector(".dot");
-  const slogan = document.querySelector(".slogan h3");
+  const slogan = document.querySelector(".slogan h2");
   const infoBlockBg = document.querySelector(".info-block__bg");
   const infoBlockBgSecond = document.querySelector(".info-block__bg_second");
 
@@ -67,7 +67,7 @@ window.addEventListener("load", () => {
   );
 
   function startAdvantagesAnimation() {
-    const advantages = gsap.utils.toArray(".advantages img");
+    const advantages = gsap.utils.toArray(".advantages__icon");
 
     advantages.forEach((card, i) => {
       gsap.fromTo(
@@ -97,10 +97,10 @@ window.addEventListener("load", () => {
   gsap.fromTo(
     stars,
     {
-      y: 10,
+      y: 8,
     },
     {
-      y: -10,
+      y: -8,
       duration: 3,
       ease: "sine.inOut",
       repeat: -1,
