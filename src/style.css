@@ -356,6 +356,46 @@ header .content {
   height: 100%;
 }
 
+.form-check-input {
+  width: 1.4em;
+  height: 1.4em;
+  cursor: default;
+  border-radius: 0.25rem;
+  border: 2px solid #8000d5;
+}
+
+.form-check-input:checked {
+  background-color: #8000d5;
+  border-color: #8000d5;
+}
+
+.form-check-input:disabled {
+  opacity: 1;
+}
+
+.form-check-label {
+  margin-left: 0.6rem;
+  cursor: default;
+  opacity: 1 !important;
+}
+
+.accelerator .form-check-input {
+  border: 2px solid #fff;
+}
+
+.accelerator .form-check-input:checked {
+  background-color: #0097fa;
+  border-color: #0097fa;
+}
+
+.accelerator a {
+  color: #fff;
+}
+
+.accelerator .stuck-blocks__right {
+  object-position: 30%;
+}
+
 .accordion-button {
   padding: calc(var(--bs-accordion-btn-padding-y) * 2.5) var(--bs-accordion-btn-padding-x);
   font-size: 1.15rem;
@@ -449,7 +489,10 @@ header .content {
 
 footer {
   color: #fff;
-  background-color: #0064be;
+  background: url("/footer.webp");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 footer .social svg {
@@ -513,7 +556,7 @@ footer .social svg {
   }
 
   .transport ul {
-    padding-left: 2rem;
+    padding-left: 1.4rem;
   }
 
   .numbers {
