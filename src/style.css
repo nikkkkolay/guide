@@ -39,7 +39,23 @@ header .content {
 }
 
 .btn {
+  color: #3328c0;
+  border-color: #3328c0;
   border-radius: 1.25em;
+  font-family: Unbounded, sans-serif;
+  font-weight: 200;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3328c0;
+  border-color: #3328c0;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #3328c0;
+  border-color: #3328c0;
 }
 
 .gradient {
@@ -104,11 +120,8 @@ header .content {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.8em;
-}
-
-.info-block_second {
-  padding: 2em;
-  background-image: url("/info-block-bg_secondary.webp");
+  font-family: Unbounded, sans-serif;
+  font-weight: 200;
 }
 
 .info-block__bg {
@@ -116,18 +129,15 @@ header .content {
   inset: 0;
   width: 100%;
   height: 100%;
-  background-color: #8800e1;
+  background-color: #3328c0;
   border-radius: 0.8em;
   transition: all 1s ease;
   z-index: -1;
 }
 
-.info-block__bg_second {
-  background-color: #042880;
-}
-
 .advantages__icon {
   width: 5rem;
+  filter: drop-shadow(0 0 8px rgb(0 130 241 / 90%));
 }
 
 .slogan {
@@ -172,7 +182,7 @@ header .content {
   object-fit: contain;
 }
 
-.card__content {
+.cards__content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -184,8 +194,12 @@ header .content {
   z-index: 100;
 }
 
-.card__content p {
+.cards__content p {
   margin: 0;
+}
+
+.cards__content p:first-child {
+  font-size: 1.15rem;
 }
 
 .about img {
@@ -201,6 +215,11 @@ header .content {
   padding-left: 1rem;
 }
 
+.timeline strong {
+  font-family: Unbounded, sans-serif;
+  font-weight: 300;
+}
+
 .dates .date {
   position: relative;
   padding: 0.1875rem 0 0.625rem 1.25rem;
@@ -213,7 +232,7 @@ header .content {
   left: -0.625rem;
   width: 1.25rem;
   height: 1.25rem;
-  border: 1px solid #0064be;
+  border: 1px solid #3328c0;
   background-color: #fff;
   border-radius: 50%;
   content: "";
@@ -226,7 +245,6 @@ header .content {
 
 .dates .date p {
   margin: 0.5rem 0 0;
-  font-weight: 500;
 }
 
 .line {
@@ -238,7 +256,7 @@ header .content {
   left: -0.4375rem;
   width: 1rem;
   height: 1rem;
-  background-color: #0d6efd;
+  background-color: #3328c0;
   border-radius: 50%;
   z-index: 99;
 }
@@ -276,11 +294,6 @@ header .content {
 .transport {
   background-color: #d9d9d9;
   border-radius: 0.8em;
-}
-
-.stuck-blocks,
-.transport {
-  margin: 0 0.125rem;
 }
 
 .transport-icon,
@@ -336,6 +349,10 @@ header .content {
   overflow: hidden;
 }
 
+.stuck-blocks h3 {
+  font-family: Unbounded, sans-serif;
+}
+
 .stuck-blocks__wrapper {
   position: relative;
   color: #fff;
@@ -361,14 +378,14 @@ header .content {
 .form-check-input {
   width: 1.4em;
   height: 1.4em;
-  border: 2px solid #8000d5;
+  border: 2px solid #3328c0;
   border-radius: 0.25rem;
   cursor: default;
 }
 
 .form-check-input:checked {
-  background-color: #8000d5;
-  border-color: #8000d5;
+  background-color: #3328c0;
+  border-color: #3328c0;
 }
 
 .form-check-input:disabled {
@@ -409,8 +426,10 @@ header .content {
 .accordion-button {
   padding: calc(var(--bs-accordion-btn-padding-y) * 2.5) var(--bs-accordion-btn-padding-x);
   font-size: 1.15rem;
+  color: #3328c0;
   border: none;
   background-color: transparent;
+  font-family: Unbounded, sans-serif;
   font-weight: 700 !important;
 }
 
@@ -420,7 +439,7 @@ header .content {
 }
 
 .accordion-button:not(.collapsed) {
-  color: #0d6efd;
+  color: #3328c0;
   background-color: transparent;
   box-shadow: none;
 }
@@ -452,22 +471,28 @@ header .content {
 }
 
 .modal-body h2 {
-  color: #0064be;
+  color: #3328c0;
+  font-family: Unbounded, sans-serif;
 }
 
 #loader-overlay h2 {
   margin: 0;
-  font-size: 2.1rem;
+  font-size: 2.5rem;
 }
 
 .scroll-up-btn {
   position: fixed;
-  right: 2.5rem;
-  bottom: 2.5rem;
+  right: 2rem;
+  bottom: 2rem;
   width: 3rem;
   height: 3rem;
+  background-color: #3328c0;
   border-radius: 50%;
   z-index: 1000;
+}
+
+.scroll-up-btn:hover {
+  opacity: 0.9;
 }
 
 .icon-wrapper {
@@ -552,7 +577,16 @@ footer .social svg {
     padding-left: 1.4rem;
   }
 
+  .stuck-blocks,
+  .transport {
+    margin: 0 0.125rem;
+  }
+
   .numbers {
     margin-left: 1.5rem;
+  }
+
+  .cards__content p:first-child {
+    font-size: 1rem;
   }
 }

@@ -28,62 +28,52 @@ window.addEventListener("load", () => {
   const dates = document.querySelectorAll(".date");
   const dot = document.querySelector(".dot");
   const slogan = document.querySelector(".slogan h2");
-  const infoBlockBg = document.querySelector(".info-block__bg");
-  const infoBlockBgSecond = document.querySelector(".info-block__bg_second");
+  const AdvantagesListIcon = document.querySelector(".advantages__list-icons");
 
+  const infoBlockBg = gsap.utils.toArray(".info-block__bg");
   const stars = gsap.utils.toArray(".slogan .star");
   const splitText = gsap.utils.toArray(".split");
+  const advantages = gsap.utils.toArray(".advantages__icon");
 
   let overlayTl = gsap.timeline();
 
-  gsap.fromTo(
-    infoBlockBgSecond,
-    { rotate: 2 },
-    {
-      rotate: -2,
-      scrollTrigger: {
-        trigger: infoBlockBgSecond,
-        start: "top center",
-        end: "bottom center",
-        scrub: true,
-      },
-    }
-  );
+  infoBlockBg.forEach((el) => {
+    gsap.fromTo(
+      el,
+      { rotate: 2 },
+      {
+        rotate: -2,
+        scrollTrigger: {
+          trigger: el,
+          start: "top center",
+          end: "bottom center",
+          scrub: true,
+        },
+      }
+    );
+  });
 
-  gsap.fromTo(
-    infoBlockBg,
-    { rotate: 2 },
-    {
-      rotate: -2,
-      scrollTrigger: {
-        trigger: infoBlockBg,
-        start: "top center",
-        end: "bottom center",
-        scrub: true,
-        onLeave: () => startAdvantagesAnimation(),
-      },
-    }
-  );
+  const tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: AdvantagesListIcon,
+      start: "20% center",
+      toggleActions: "play none none reset",
+    },
+  });
 
-  function startAdvantagesAnimation() {
-    const advantages = gsap.utils.toArray(".advantages__icon");
-
-    advantages.forEach((card, i) => {
-      gsap.fromTo(
-        card,
-        { scale: 1, filter: "drop-shadow(0 0 8px rgba(0, 130, 241, 0.0))" },
-        {
-          scale: 1.1,
-          filter: "drop-shadow(0 0 8px rgba(0, 130, 241, 0.9))",
-          duration: 0.3,
-          ease: "power2.out",
-          yoyo: true,
-          repeat: 1,
-          delay: i * 0.3,
-        }
-      );
-    });
-  }
+  advantages.forEach((card) => {
+    tl.fromTo(
+      card,
+      { scale: 1 },
+      {
+        scale: 1.1,
+        duration: 0.2,
+        ease: "power2.out",
+        yoyo: true,
+        repeat: 1,
+      }
+    );
+  });
 
   gsap.to(slogan, {
     backgroundPosition: "100% 0%",
@@ -96,10 +86,10 @@ window.addEventListener("load", () => {
   gsap.fromTo(
     stars,
     {
-      y: 8,
+      y: 9,
     },
     {
-      y: -8,
+      y: -9,
       duration: 3,
       ease: "sine.inOut",
       repeat: -1,
