@@ -146,6 +146,7 @@ header .content {
 
 .slogan h2 {
   font-weight: 800;
+  font-size: 2.2rem;
 }
 
 .slogan .star {
@@ -199,7 +200,7 @@ header .content {
 }
 
 .cards__content p:first-child {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
 }
 
 .about img {
@@ -217,7 +218,7 @@ header .content {
 
 .timeline strong {
   font-family: Unbounded, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .dates .date {
@@ -550,6 +551,10 @@ footer .social svg {
 
   .social svg {
     width: 2.2rem;
+  }
+
+  .slogan h2 {
+    font-size: 3rem;
   }
 
   #loader-overlay h2 {
