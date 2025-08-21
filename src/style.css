@@ -73,9 +73,9 @@ header .content {
 .list-icon {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  list-style: none;
   padding: 0;
+  gap: 0.7rem;
+  list-style: none;
   margin-bottom: 0.5rem;
 }
 
@@ -118,8 +118,8 @@ header .content {
   height: 100%;
   background-color: #8800e1;
   border-radius: 0.8em;
-  z-index: -1;
   transition: all 1s ease;
+  z-index: -1;
 }
 
 .info-block__bg_second {
@@ -189,8 +189,10 @@ header .content {
 }
 
 .about img {
-  width: 100%;
+  width: 105%;
+  height: 100%;
   max-width: 23.75rem;
+  object-fit: cover;
 }
 
 .timeline {
@@ -236,7 +238,7 @@ header .content {
   left: -0.4375rem;
   width: 1rem;
   height: 1rem;
-  background-color: #fd1284;
+  background-color: #8a0cf8;
   border-radius: 50%;
   z-index: 99;
 }
@@ -254,9 +256,9 @@ header .content {
 }
 
 .campus .image {
-  border-radius: 0.8em;
   width: 100%;
   height: 100%;
+  border-radius: 0.8em;
   object-fit: cover;
   object-position: 75%;
 }
@@ -301,16 +303,16 @@ header .content {
   flex-direction: column;
   gap: 0.8rem;
   list-style: none;
-  text-wrap: nowrap;
   padding-left: 0;
+  text-wrap: nowrap;
 }
 
 .transport ul li {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 1rem;
+  flex-wrap: wrap;
   font-weight: 500;
+  gap: 1rem;
 }
 
 .numbers {
@@ -321,10 +323,10 @@ header .content {
 
 .numbers span {
   padding: 0.3125em 0.5125em;
-  background: linear-gradient(to right, #042780, #8000d5);
-  color: #fff;
-  border-radius: 0.5em;
   font-size: 0.85rem;
+  color: #fff;
+  background: linear-gradient(to right, #042780, #8000d5);
+  border-radius: 0.5em;
   min-width: 1.5rem;
   text-align: center;
 }
@@ -336,8 +338,8 @@ header .content {
 
 .stuck-blocks__wrapper {
   position: relative;
-  z-index: 100;
   color: #fff;
+  z-index: 100;
 }
 
 .stuck-blocks__left {
@@ -350,18 +352,18 @@ header .content {
 }
 
 .stuck-blocks__right {
-  object-fit: cover;
-  object-position: 80%;
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  object-position: 80%;
 }
 
 .form-check-input {
   width: 1.4em;
   height: 1.4em;
-  cursor: default;
-  border-radius: 0.25rem;
   border: 2px solid #8000d5;
+  border-radius: 0.25rem;
+  cursor: default;
 }
 
 .form-check-input:checked {
@@ -374,8 +376,8 @@ header .content {
 }
 
 .form-check-label {
-  margin-left: 0.6rem;
   cursor: default;
+  margin-left: 0.6rem;
   opacity: 1 !important;
 }
 
@@ -396,12 +398,20 @@ header .content {
   object-position: 30%;
 }
 
+.dictionary ul li {
+  align-items: start;
+}
+
+.dictionary ul li img {
+  margin-top: 0.3rem;
+}
+
 .accordion-button {
   padding: calc(var(--bs-accordion-btn-padding-y) * 2.5) var(--bs-accordion-btn-padding-x);
   font-size: 1.15rem;
   border: none;
   background-color: transparent;
-  font-weight: 800 !important;
+  font-weight: 700 !important;
 }
 
 .accordion-button:focus {
@@ -488,11 +498,11 @@ header .content {
 }
 
 footer {
+  width: 100%;
+  height: 100%;
   color: #fff;
   background: url("/footer.webp");
   background-size: cover;
-  width: 100%;
-  height: 100%;
 }
 
 footer .social svg {
@@ -547,8 +557,8 @@ footer .social svg {
   }
 
   .south-map .address {
-    margin-top: -9rem;
     margin-left: auto;
+    margin-top: -9rem;
   }
 
   .north-map .address {
