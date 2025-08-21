@@ -1,0 +1,180 @@
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 968.72">
+                            <style>
+                            .cls-9 {
+  fill: #ffcc9e;
+}
+.building-name {
+  cursor: pointer;
+  fill: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.building-exit {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+}
+.cls-18 {
+  fill: gray;
+}
+.building {
+  cursor: pointer;
+  fill: #0064be;
+}
+.building-frame {
+  fill: #ff1380;
+}
+.building:hover {
+  filter: drop-shadow(0 0 8px rgba(0, 130, 241, 0.9));
+}
+
+                            </style>
+                              <path
+                                d="M759.25 443.85h-22.4V552.6h22.4v-48.23h84.6v-22.4h-84.6v-38.12z"
+                                class="cls-9"
+                              />
+                              <path
+                                d="M759.75 445.85h-1v-1.5h-1.5v-1h2.5v2.5zm-6.18-1.5h-3.68v-1h3.68v1Zm-7.36 0h-3.68v-1h3.68v1Zm-8.86 1.5h-1v-2.5h2.5v1h-1.5v1.5zm0 100.87h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1V473h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm1.5 99.5h-2.5v-2.5h1v1.5h1.5v1zm14.72 0h-3.68v-1h3.68v1Zm-7.36 0h-3.68v-1h3.68v1Zm13.54 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.52h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Zm0-8.05h-1v-2.5h2.5v1h-1.5v1.5zm78.26-1.5h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm75.46 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.18h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Zm0-7.36h-1v-1.5h-1.5v-1h2.5v2.5zm-6.34-1.5h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.64 0h-2.5v-2.5h1v1.5h1.5v1zm-1.5-6.29h-1v-3.79h1v3.79Zm0-7.58h-1v-3.79h1v3.79Zm0-7.58h-1v-3.79h1v3.79Zm0-7.58h-1v-3.79h1v3.79Z"
+                                class="cls-18"
+                              />
+                              <path
+                                d="M231.93 394.64h21.55l4.86-27.57-20.89-3.69-5.52 31.26z"
+                                class="cls-9"
+                              />
+                              <path
+                                d="M233.93 395.14h-2.59l.45-2.56.98.17-.24 1.39h1.4v1zm14.04 0h-3.51v-1h3.51v1Zm-7.02 0h-3.51v-1h3.51v1Zm12.94 0h-2.41v-1h1.58l.27-1.56.98.17-.42 2.39zm1.02-5.76-.98-.17.6-3.38.98.17-.6 3.38Zm1.19-6.75-.98-.17.6-3.38.98.17-.6 3.38Zm1.19-6.75-.98-.17.6-3.38.98.17-.6 3.38Zm1.19-6.76-.98-.17.26-1.48-1.48-.26.17-.98 2.47.43-.44 2.46zm-5.59-2.51-3.39-.6.17-.98 3.39.6-.17.98Zm-6.78-1.2-3.39-.6.17-.98 3.39.6-.17.98Zm-8.52.03-.98-.17.43-2.47 2.46.44-.17.98-1.48-.26-.26 1.48zm-4.13 23.41-.98-.17.69-3.9.98.17-.69 3.9Zm1.38-7.8-.98-.17.69-3.9.98.17-.69 3.9Zm1.38-7.8-.98-.17.69-3.9.98.17-.69 3.9Z"
+                                class="cls-18"
+                              />
+                              <path d="M999.54 552.75h27.72v22.18h-27.72z" class="cls-9" />
+                              <path
+                                d="M1000.04 554.75h-1v-2.5h2.5v1h-1.5v1.5zm0 14.54h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Zm1.5 13.4h-2.5v-2.5h1v1.5h1.5v1zm20.33 0h-3.39v-1h3.39v1Zm-6.78 0h-3.39v-1h3.39v1Zm-6.78 0h-3.39v-1h3.39v1Zm19.45 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.13h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Zm0-7.27h-1v-1.5h-1.5v-1h2.5v2.5zm-5.89-1.5h-3.39v-1h3.39v1Zm-6.78 0h-3.39v-1h3.39v1Zm-6.78 0h-3.39v-1h3.39v1Z"
+                                class="cls-18"
+                              />
+                              <path d="M759.86 556.93h23.24v22.18h-23.24z" class="cls-9" />
+                              <path
+                                d="M761.86 579.6h-2.5v-2.5h1v1.5h1.5v1zm15.39 0h-3.85v-1h3.85v1Zm-7.7 0h-3.85v-1h3.85v1Zm14.05 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.13h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Zm0-7.27h-1v-1.5h-1.5v-1h2.5v2.5zm-6.35-1.5h-3.85v-1h3.85v1Zm-7.7 0h-3.85v-1h3.85v1Zm-9.19 1.5h-1v-2.5h2.5v1h-1.5v1.5zm0 14.54h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Z"
+                                class="cls-18"
+                              />
+                              <path d="M486.24 581h18.53v21.11h-18.53z" class="cls-9" />
+                              <path
+                                d="M488.24 602.61h-2.5v-2.5h1v1.5h1.5v1zm4.84-1h4.84v1h-4.84zm12.19 1h-2.5v-1h1.5v-1.5h1v2.5zm0-5.92h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Zm0-6.85h-1v-1.5h-1.5v-1h2.5v2.5zm-12.19-2.5h4.84v1h-4.84zm-6.34 2.5h-1v-2.5h2.5v1h-1.5v1.5zm0 13.69h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Z"
+                                class="cls-18"
+                              />
+                              <path d="M288.18 581.8h32.2v21.11h-32.2z" class="cls-9" />
+                              <path
+                                d="M290.18 603.41h-2.5v-2.5h1v1.5h1.5v1zm24.17 0h-4.03v-1h4.03v1Zm-8.06 0h-4.03v-1h4.03v1Zm-8.06 0h-4.03v-1h4.03v1Zm22.65 0h-2.5v-1h1.5v-1.5h1v2.5zm0-5.92h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Zm0-6.85h-1v-1.5h-1.5v-1h2.5v2.5zm-6.53-1.5h-4.03v-1h4.03v1Zm-8.06 0h-4.03v-1h4.03v1Zm-8.06 0h-4.03v-1h4.03v1Zm-9.55 1.5h-1v-2.5h2.5v1h-1.5v1.5zm0 13.69h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Z"
+                                class="cls-18"
+                              />
+                              <path d="M629.62 101.61h65.01v22.4h-65.01z" class="cls-9" />
+                              <path
+                                d="M631.62 124.51h-2.5v-2.5h1v1.5h1.5v1zm56.94 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm55.34 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.18h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Zm0-7.36h-1v-1.5h-1.5v-1h2.5v2.5zm-6.56-1.5h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-9.66 1.5h-1v-2.5h2.5v1h-1.5v1.5zm0 14.72h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Z"
+                                class="cls-18"
+                              />
+                              <path d="M991.3 96.33h23.5v22.4h-23.5z" class="cls-9" />
+                              <path
+                                d="M1015.3 98.33h-1v-1.5h-1.5v-1h2.5v2.5zm-6.4-1.5h-3.9v-1h3.9v1Zm-7.8 0h-3.9v-1h3.9v1Zm-9.3 1.5h-1v-2.5h2.5v1h-1.5v1.5zm0 14.72h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Zm1.5 13.54h-2.5v-2.5h1v1.5h1.5v1zm15.6 0h-3.9v-1h3.9v1Zm-7.8 0h-3.9v-1h3.9v1Zm14.2 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.18h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Z"
+                                class="cls-18"
+                              />
+                              <path d="M1290.15 581.8h157.52v62.58h-157.52z" class="building" />
+                              <path d="M1344.09 96.33h70.48v92.95h-70.48z" class="cls-18" />
+                              <path
+                                d="M1328.64 291.47v-65.66h-65.66v65.66h-9.16v80.94h83.98v-80.94h-9.16zm-301.38 231.05h236.94v62.58h-236.94zM1014.8 96.33h249.4v73.82h-249.4zM783.1 539.54h216.44v62.58H783.1zm269.37-280.39h62.58v245.22h-62.58zm-383.36 25.52h90.14v159.18h-90.14zm174.74 0h148.47v219.7H843.85zM504.77 552.6h254.49v49.52H504.77zm-184.39 14.58h165.86v49.52H320.38zm184.39-48H308.23v-49.52h196.54z"
+                                class="building"
+                              />
+                              <path d="M46.68 417.42H96.2v149.76H46.68z" class="cls-18" />
+                              <path
+                                d="M394.12 393.76v36.58h70.47v-36.58h-10.48v-87.39h10.48v-36.58h-70.47v36.58h10.48v87.39h-10.48zM173.35 625.81h49.52v144.6h-49.52zm-17.99 144.6h49.52v148.3h-49.52zM288.18 440.2v-45.56H133.55v231.17h154.63v-49.52h-40.1v8.74h-68.96v-150.9h68.96v6.07h40.1z"
+                                class="building"
+                              />
+                              <path
+                                d="M386.9 96.33v-4.21c-.58 0-1.15-.02-1.73-.02-75.81 0-138.41 56.55-147.93 129.77l14.18 2.5 9.4 1.66-9.59-1.69-24.19 137.22 55.64 9.81 24.19-137.22 33.23 5.86 26.9 26.9 18.83-18.83 1.06-1.06 12.61-12.61-12.61-12.61v-39.79H516.9v87.79h56.5v-87.79h56.2V96.35H386.89Zm307.72 73.82H991.3V96.33h-82.69l-16.84-16.84v16.84h-.4l-16.84-16.84v16.84h-.41l-16.84-16.84v16.84h-.4l-16.84-16.84v16.84h-.41l-16.84-16.84v16.84h-.4l-16.84-16.84v16.84h-.41L788.3 79.49v16.84h-.4l-16.84-16.84v16.84h-.41l-16.84-16.84v16.84h-.4l-16.84-16.84v16.84h-41.95v73.82z"
+                                class="building"
+                              />
+                              <path
+                                d="M1326.28 77.39v7.12h-59.73v-9.79h-2.35v21.85h2.35v-9.71h59.73v9.47h17.81V77.39h-17.81zm-975.61 9.47h-90.81v-2.35h90.81z"
+                                class="cls-18"
+                              />
+                              <path d="M262.2 85.69v50.64h-2.35V85.69z" class="cls-18" />
+                              <text class="building-name" transform="rotate(-90 783.02 -605.12)">
+                                <tspan x="0" y="0" letter-spacing="-.02em">КПП</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 826.99 -479.95)">
+                                <tspan x="0" y="0" letter-spacing="-.03em">БУТЦ</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 559.485 -162.975)">
+                                <tspan x="0" y="0">КСК</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 704.495 -220.885)">
+                                <tspan x="0" y="0" letter-spacing="0">СТОЛОВАЯ</tspan>
+                              </text>
+                              <text
+                                fill="#fff"
+                                font-size="13.35"
+                                transform="rotate(-90 313.525 247.865)"
+                              >
+                                <tspan x="0" y="0">Административный</tspan>
+                                <tspan x="50" y="16">корпус</tspan>
+                              </text>
+                              <circle cx="518.06" cy="135.77" r="20.02" class="building-frame" />
+                              <circle cx="427.1" cy="292.45" r="20.02" class="building-frame" />
+                              <circle cx="479.64" cy="493.67" r="20.02" class="building-frame" />
+                              <circle cx="708.9" cy="576.94" r="20.02" class="building-frame" />
+                              <circle cx="964.81" cy="569.58" r="20.02" class="building-frame" />
+                              <circle cx="1223.28" cy="554.91" r="20.02" class="building-frame" />
+                              <circle cx="1423.14" cy="613.08" r="20.02" class="building-frame" />
+                              <circle cx="156.23" cy="455.88" r="20.02" class="building-frame" />
+                              <circle cx="460.16" cy="592.35" r="20.02" class="building-frame" />
+                              <circle cx="198.46" cy="641.91" r="20.02" class="building-frame" />
+                              <circle cx="180.12" cy="791.65" r="20.02" class="building-frame" />
+                              <circle cx="917.58" cy="135.77" r="20.85" class="building-frame" />
+                              <circle cx="1218.18" cy="135.77" r="20.85" class="building-frame" />
+                              <circle cx="1085.71" cy="302.85" r="20.02" class="building-frame" />
+                              <text class="building-name" transform="translate(353.41 146)">
+                                <tspan x="0" y="0">КОРПУС В</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(742.18 146)">
+                                <tspan x="0" y="0">КОРПУС Л2</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(1045.67 146)">
+                                <tspan x="0" y="0">КОРПУС Л1</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 781.12 -314.41)">
+                                <tspan x="0" y="0">КОРПУС Э</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 430.055 -8.205)">
+                                <tspan x="0" y="0">КОРП. Б</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(317.35 503.71)">
+                                <tspan x="0" y="0">КОРПУС Г</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(330.37 599.28)">
+                                <tspan x="0" y="0">КОРП. Д</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(542.97 586.33)">
+                                <tspan x="0" y="0">КОРПУС П</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 375.66 210.91)">
+                                <tspan x="0" y="0">КОРП. А</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 486.285 277.835)">
+                                <tspan x="0" y="0">КОРП. Н</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 551.245 361.335)">
+                                <tspan x="0" y="0">КОРП. К</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(800.47 580.1)">
+                                <tspan x="0" y="0">КОРПУС Е</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(1057.83 564.57)">
+                                <tspan x="0" y="0">КОРПУС С</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(1299.15 623.3)">
+                                <tspan x="0" y="0">КОРП. М</tspan>
+                              </text>
+                              <text class="building-exit" transform="translate(1254.29 69.62)">
+                                <tspan x="0" y="0" letter-spacing="-.01em">ВХОД</tspan>
+                              </text>
+                              <text class="building-exit" transform="translate(257.28 69.62)">
+                                <tspan x="0" y="0">ВХОД</tspan>
+                              </text>
+                            </svg>
