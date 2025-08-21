@@ -24,7 +24,6 @@ window.addEventListener("load", () => {
 
   const magnets = document.querySelectorAll(".magnet");
   const wordElement = document.getElementById("hero-word");
-  const smileIcon = document.querySelector(".smile");
   const header = document.querySelector("header");
   const dates = document.querySelectorAll(".date");
   const dot = document.querySelector(".dot");
@@ -108,16 +107,6 @@ window.addEventListener("load", () => {
     }
   );
 
-  gsap.to(smileIcon, {
-    rotate: 360,
-    scrollTrigger: {
-      trigger: document.body,
-      start: "top top",
-      end: "bottom bottom",
-      scrub: 0.5,
-    },
-  });
-
   gsap.fromTo(
     scrollUpBtn,
     { y: 200 },
@@ -186,57 +175,57 @@ window.addEventListener("load", () => {
     });
   });
 
-  // let split = SplitText.create(splitText, {
-  //   type: "words,lines",
-  //   mask: "words",
-  // });
+  let split = SplitText.create(splitText, {
+    type: "words,lines",
+    mask: "words",
+  });
 
-  // document.body.style.overflow = "hidden";
+  document.body.style.overflow = "hidden";
 
-  // words.forEach((word) => {
-  //   overlayTl.to(wordElement, {
-  //     duration: 0.3,
-  //     opacity: 0,
-  //     scale: 0.7,
-  //     ease: "power2.in",
-  //     onComplete: () => (wordElement.textContent = word),
-  //   });
+  words.forEach((word) => {
+    overlayTl.to(wordElement, {
+      duration: 0.3,
+      opacity: 0,
+      scale: 0.7,
+      ease: "power2.in",
+      onComplete: () => (wordElement.textContent = word),
+    });
 
-  //   overlayTl.fromTo(
-  //     wordElement,
-  //     { opacity: 0, scale: 1.1 },
-  //     {
-  //       duration: 0.35,
-  //       opacity: 1,
-  //       scale: 1,
-  //       ease: "power2.out",
-  //     }
-  //   );
+    overlayTl.fromTo(
+      wordElement,
+      { opacity: 0, scale: 1.1 },
+      {
+        duration: 0.35,
+        opacity: 1,
+        scale: 1,
+        ease: "power2.out",
+      }
+    );
 
-  //   overlayTl.to(wordElement, { duration: 0.6 });
-  // });
+    overlayTl.to(wordElement, { duration: 0.6 });
+  });
 
-  // overlayTl.to("#loader-overlay", {
-  //   opacity: 0,
-  //   duration: 0.3,
-  //   ease: "power1.out",
-  //   onComplete: () => {
-  //     document.getElementById("loader-overlay").remove();
-  //     document.body.style.overflow = "";
-  //     gsap.fromTo(".root", { opacity: 0 }, { opacity: 1, duration: 1, ease: "power2.out" });
-  //     gsap.fromTo(
-  //       ".content",
-  //       { opacity: 0, y: 70 },
-  //       { opacity: 1, y: 0, duration: 1, ease: "power2.out" }
-  //     );
-  //     gsap.from(split.words, {
-  //       duration: 1,
-  //       y: 100,
-  //       autoAlpha: 0,
-  //       stagger: 0.05,
-  //     });
-  //   },
-  // });
+  overlayTl.to("#loader-overlay", {
+    opacity: 0,
+    duration: 0.3,
+    ease: "power1.out",
+    onComplete: () => {
+      document.getElementById("loader-overlay").remove();
+      document.body.style.overflow = "";
+      gsap.fromTo(".root", { opacity: 0 }, { opacity: 1, duration: 1, ease: "power2.out" });
+      gsap.fromTo(
+        ".content",
+        { opacity: 0, y: 70 },
+        { opacity: 1, y: 0, duration: 1, ease: "power2.out" }
+      );
+      gsap.from(split.words, {
+        duration: 1,
+        y: 100,
+        autoAlpha: 0,
+        stagger: 0.05,
+      });
+    },
+  });
 });
 
 scrollUpBtn.addEventListener("click", () => {

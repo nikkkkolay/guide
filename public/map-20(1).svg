@@ -1,292 +1,180 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 968.72">
-  <defs>
-    <style>
-      .cls-1 {
-        letter-spacing: -.02em;
-      }
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 968.72">
+                            <style>
+                            .cls-9 {
+  fill: #ffcc9e;
+}
+.building-name {
+  cursor: pointer;
+  fill: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.building-exit {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+}
+.cls-18 {
+  fill: gray;
+}
+.building {
+  cursor: pointer;
+  fill: #0064be;
+}
+.building-frame {
+  fill: #ff1380;
+}
+.building:hover {
+  filter: drop-shadow(0 0 8px rgba(0, 130, 241, 0.9));
+}
 
-      .cls-2 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-3 {
-        letter-spacing: 0em;
-      }
-
-      .cls-4, .cls-5 {
-        font-family: Montserrat-ExtraBold, Montserrat;
-        font-size: 30.03px;
-        font-weight: 700;
-      }
-
-      .cls-6 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-7 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-8 {
-        letter-spacing: -.01em;
-      }
-
-      .cls-9 {
-        fill: #ffcc9e;
-      }
-
-      .cls-10 {
-        letter-spacing: 0em;
-      }
-
-      .cls-11 {
-        letter-spacing: 0em;
-      }
-
-      .cls-12 {
-        letter-spacing: -.01em;
-      }
-
-      .cls-13 {
-        font-family: Montserrat-Regular, Montserrat;
-        font-size: 13.35px;
-      }
-
-      .cls-13, .cls-5 {
-        fill: #fff;
-      }
-
-      .cls-14 {
-        letter-spacing: -.03em;
-      }
-
-      .cls-15 {
-        letter-spacing: 0em;
-      }
-
-      .cls-16 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-17 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-18 {
-        fill: gray;
-      }
-
-      .cls-19 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-20 {
-        letter-spacing: -.03em;
-      }
-
-      .cls-21 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-22 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-23 {
-        letter-spacing: -.04em;
-      }
-
-      .cls-24 {
-        letter-spacing: 0em;
-      }
-
-      .cls-25 {
-        letter-spacing: 0em;
-      }
-
-      .cls-26 {
-        letter-spacing: -.02em;
-      }
-
-      .cls-27 {
-        fill: #ff1380;
-      }
-
-      .cls-28 {
-        fill: #0064be;
-      }
-    </style>
-  </defs>
-  <g>
-    <polygon class="cls-9" points="759.25 443.85 736.85 443.85 736.85 552.6 759.25 552.6 759.25 504.37 843.85 504.37 843.85 481.97 759.25 481.97 759.25 443.85"/>
-    <g>
-      <polygon class="cls-18" points="759.75 445.85 758.75 445.85 758.75 444.35 757.25 444.35 757.25 443.35 759.75 443.35 759.75 445.85"/>
-      <path class="cls-18" d="m753.57,444.35h-3.68v-1h3.68v1Zm-7.36,0h-3.68v-1h3.68v1Z"/>
-      <polygon class="cls-18" points="737.35 445.85 736.35 445.85 736.35 443.35 738.85 443.35 738.85 444.35 737.35 444.35 737.35 445.85"/>
-      <path class="cls-18" d="m737.35,546.72h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Z"/>
-      <polygon class="cls-18" points="738.85 553.1 736.35 553.1 736.35 550.6 737.35 550.6 737.35 552.1 738.85 552.1 738.85 553.1"/>
-      <path class="cls-18" d="m753.57,553.1h-3.68v-1h3.68v1Zm-7.36,0h-3.68v-1h3.68v1Z"/>
-      <polygon class="cls-18" points="759.75 553.1 757.25 553.1 757.25 552.1 758.75 552.1 758.75 550.6 759.75 550.6 759.75 553.1"/>
-      <path class="cls-18" d="m759.75,546.58h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Z"/>
-      <polygon class="cls-18" points="759.75 506.37 758.75 506.37 758.75 503.87 761.25 503.87 761.25 504.87 759.75 504.87 759.75 506.37"/>
-      <path class="cls-18" d="m838.01,504.87h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Z"/>
-      <polygon class="cls-18" points="844.35 504.87 841.85 504.87 841.85 503.87 843.35 503.87 843.35 502.37 844.35 502.37 844.35 504.87"/>
-      <path class="cls-18" d="m844.35,498.69h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Z"/>
-      <polygon class="cls-18" points="844.35 483.97 843.35 483.97 843.35 482.47 841.85 482.47 841.85 481.47 844.35 481.47 844.35 483.97"/>
-      <path class="cls-18" d="m838.01,482.47h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Zm-7.68,0h-3.84v-1h3.84v1Z"/>
-      <polygon class="cls-18" points="761.25 482.47 758.75 482.47 758.75 479.97 759.75 479.97 759.75 481.47 761.25 481.47 761.25 482.47"/>
-      <path class="cls-18" d="m759.75,476.18h-1v-3.79h1v3.79Zm0-7.58h-1v-3.79h1v3.79Zm0-7.58h-1v-3.79h1v3.79Zm0-7.58h-1v-3.79h1v3.79Z"/>
-    </g>
-  </g>
-  <g>
-    <polygon class="cls-9" points="231.93 394.64 253.48 394.64 258.34 367.07 237.45 363.38 231.93 394.64"/>
-    <g>
-      <polygon class="cls-18" points="233.93 395.14 231.34 395.14 231.79 392.58 232.77 392.75 232.53 394.14 233.93 394.14 233.93 395.14"/>
-      <path class="cls-18" d="m247.97,395.14h-3.51v-1h3.51v1Zm-7.02,0h-3.51v-1h3.51v1Z"/>
-      <polygon class="cls-18" points="253.89 395.14 251.48 395.14 251.48 394.14 253.06 394.14 253.33 392.58 254.31 392.75 253.89 395.14"/>
-      <path class="cls-18" d="m254.91,389.38l-.98-.17.6-3.38.98.17-.6,3.38Zm1.19-6.75l-.98-.17.6-3.38.98.17-.6,3.38Zm1.19-6.75l-.98-.17.6-3.38.98.17-.6,3.38Z"/>
-      <polygon class="cls-18" points="258.48 369.12 257.5 368.95 257.76 367.47 256.28 367.21 256.45 366.23 258.92 366.66 258.48 369.12"/>
-      <path class="cls-18" d="m252.89,366.61l-3.39-.6.17-.98,3.39.6-.17.98Zm-6.78-1.2l-3.39-.6.17-.98,3.39.6-.17.98Z"/>
-      <polygon class="cls-18" points="237.59 365.44 236.61 365.27 237.04 362.8 239.5 363.24 239.33 364.22 237.85 363.96 237.59 365.44"/>
-      <path class="cls-18" d="m233.46,388.85l-.98-.17.69-3.9.98.17-.69,3.9Zm1.38-7.8l-.98-.17.69-3.9.98.17-.69,3.9Zm1.38-7.8l-.98-.17.69-3.9.98.17-.69,3.9Z"/>
-    </g>
-  </g>
-  <g>
-    <rect class="cls-9" x="999.54" y="552.75" width="27.72" height="22.18"/>
-    <g>
-      <polygon class="cls-18" points="1000.04 554.75 999.04 554.75 999.04 552.25 1001.54 552.25 1001.54 553.25 1000.04 553.25 1000.04 554.75"/>
-      <path class="cls-18" d="m1000.04,569.29h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Z"/>
-      <polygon class="cls-18" points="1001.54 575.42 999.04 575.42 999.04 572.92 1000.04 572.92 1000.04 574.42 1001.54 574.42 1001.54 575.42"/>
-      <path class="cls-18" d="m1021.87,575.42h-3.39v-1h3.39v1Zm-6.78,0h-3.39v-1h3.39v1Zm-6.78,0h-3.39v-1h3.39v1Z"/>
-      <polygon class="cls-18" points="1027.76 575.42 1025.26 575.42 1025.26 574.42 1026.76 574.42 1026.76 572.92 1027.76 572.92 1027.76 575.42"/>
-      <path class="cls-18" d="m1027.76,569.29h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Z"/>
-      <polygon class="cls-18" points="1027.76 554.75 1026.76 554.75 1026.76 553.25 1025.26 553.25 1025.26 552.25 1027.76 552.25 1027.76 554.75"/>
-      <path class="cls-18" d="m1021.87,553.25h-3.39v-1h3.39v1Zm-6.78,0h-3.39v-1h3.39v1Zm-6.78,0h-3.39v-1h3.39v1Z"/>
-    </g>
-  </g>
-  <g>
-    <rect class="cls-9" x="759.86" y="556.93" width="23.24" height="22.18"/>
-    <g>
-      <polygon class="cls-18" points="761.86 579.6 759.36 579.6 759.36 577.1 760.36 577.1 760.36 578.6 761.86 578.6 761.86 579.6"/>
-      <path class="cls-18" d="m777.25,579.6h-3.85v-1h3.85v1Zm-7.7,0h-3.85v-1h3.85v1Z"/>
-      <polygon class="cls-18" points="783.6 579.6 781.1 579.6 781.1 578.6 782.6 578.6 782.6 577.1 783.6 577.1 783.6 579.6"/>
-      <path class="cls-18" d="m783.6,573.47h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Z"/>
-      <polygon class="cls-18" points="783.6 558.93 782.6 558.93 782.6 557.43 781.1 557.43 781.1 556.43 783.6 556.43 783.6 558.93"/>
-      <path class="cls-18" d="m777.25,557.43h-3.85v-1h3.85v1Zm-7.7,0h-3.85v-1h3.85v1Z"/>
-      <polygon class="cls-18" points="760.36 558.93 759.36 558.93 759.36 556.43 761.86 556.43 761.86 557.43 760.36 557.43 760.36 558.93"/>
-      <path class="cls-18" d="m760.36,573.47h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Z"/>
-    </g>
-  </g>
-  <g>
-    <rect class="cls-9" x="486.24" y="581" width="18.53" height="21.11"/>
-    <g>
-      <polygon class="cls-18" points="488.24 602.61 485.74 602.61 485.74 600.11 486.74 600.11 486.74 601.61 488.24 601.61 488.24 602.61"/>
-      <rect class="cls-18" x="493.08" y="601.61" width="4.84" height="1"/>
-      <polygon class="cls-18" points="505.27 602.61 502.77 602.61 502.77 601.61 504.27 601.61 504.27 600.11 505.27 600.11 505.27 602.61"/>
-      <path class="cls-18" d="m505.27,596.69h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Z"/>
-      <polygon class="cls-18" points="505.27 583 504.27 583 504.27 581.5 502.77 581.5 502.77 580.5 505.27 580.5 505.27 583"/>
-      <rect class="cls-18" x="493.08" y="580.5" width="4.84" height="1"/>
-      <polygon class="cls-18" points="486.74 583 485.74 583 485.74 580.5 488.24 580.5 488.24 581.5 486.74 581.5 486.74 583"/>
-      <path class="cls-18" d="m486.74,596.69h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Z"/>
-    </g>
-  </g>
-  <g>
-    <rect class="cls-9" x="288.18" y="581.8" width="32.2" height="21.11"/>
-    <g>
-      <polygon class="cls-18" points="290.18 603.41 287.68 603.41 287.68 600.91 288.68 600.91 288.68 602.41 290.18 602.41 290.18 603.41"/>
-      <path class="cls-18" d="m314.35,603.41h-4.03v-1h4.03v1Zm-8.06,0h-4.03v-1h4.03v1Zm-8.06,0h-4.03v-1h4.03v1Z"/>
-      <polygon class="cls-18" points="320.88 603.41 318.38 603.41 318.38 602.41 319.88 602.41 319.88 600.91 320.88 600.91 320.88 603.41"/>
-      <path class="cls-18" d="m320.88,597.49h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Z"/>
-      <polygon class="cls-18" points="320.88 583.8 319.88 583.8 319.88 582.3 318.38 582.3 318.38 581.3 320.88 581.3 320.88 583.8"/>
-      <path class="cls-18" d="m314.35,582.3h-4.03v-1h4.03v1Zm-8.06,0h-4.03v-1h4.03v1Zm-8.06,0h-4.03v-1h4.03v1Z"/>
-      <polygon class="cls-18" points="288.68 583.8 287.68 583.8 287.68 581.3 290.18 581.3 290.18 582.3 288.68 582.3 288.68 583.8"/>
-      <path class="cls-18" d="m288.68,597.49h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Z"/>
-    </g>
-  </g>
-  <g>
-    <rect class="cls-9" x="629.62" y="101.61" width="65.01" height="22.4"/>
-    <g>
-      <polygon class="cls-18" points="631.62 124.51 629.12 124.51 629.12 122.01 630.12 122.01 630.12 123.51 631.62 123.51 631.62 124.51"/>
-      <path class="cls-18" d="m688.56,124.51h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Z"/>
-      <polygon class="cls-18" points="695.12 124.51 692.62 124.51 692.62 123.51 694.12 123.51 694.12 122.01 695.12 122.01 695.12 124.51"/>
-      <path class="cls-18" d="m695.12,118.33h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Z"/>
-      <polygon class="cls-18" points="695.12 103.61 694.12 103.61 694.12 102.11 692.62 102.11 692.62 101.11 695.12 101.11 695.12 103.61"/>
-      <path class="cls-18" d="m688.56,102.11h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Zm-8.13,0h-4.07v-1h4.07v1Z"/>
-      <polygon class="cls-18" points="630.12 103.61 629.12 103.61 629.12 101.11 631.62 101.11 631.62 102.11 630.12 102.11 630.12 103.61"/>
-      <path class="cls-18" d="m630.12,118.33h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Z"/>
-    </g>
-  </g>
-  <g>
-    <rect class="cls-9" x="991.3" y="96.33" width="23.5" height="22.4"/>
-    <g>
-      <polygon class="cls-18" points="1015.3 98.33 1014.3 98.33 1014.3 96.83 1012.8 96.83 1012.8 95.83 1015.3 95.83 1015.3 98.33"/>
-      <path class="cls-18" d="m1008.9,96.83h-3.9v-1h3.9v1Zm-7.8,0h-3.9v-1h3.9v1Z"/>
-      <polygon class="cls-18" points="991.8 98.33 990.8 98.33 990.8 95.83 993.3 95.83 993.3 96.83 991.8 96.83 991.8 98.33"/>
-      <path class="cls-18" d="m991.8,113.05h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Z"/>
-      <polygon class="cls-18" points="993.3 119.23 990.8 119.23 990.8 116.73 991.8 116.73 991.8 118.23 993.3 118.23 993.3 119.23"/>
-      <path class="cls-18" d="m1008.9,119.23h-3.9v-1h3.9v1Zm-7.8,0h-3.9v-1h3.9v1Z"/>
-      <polygon class="cls-18" points="1015.3 119.23 1012.8 119.23 1012.8 118.23 1014.3 118.23 1014.3 116.73 1015.3 116.73 1015.3 119.23"/>
-      <path class="cls-18" d="m1015.3,113.05h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Z"/>
-    </g>
-  </g>
-  <rect class="cls-28" x="1290.15" y="581.8" width="157.52" height="62.58"/>
-  <rect class="cls-18" x="1344.09" y="96.33" width="70.48" height="92.95"/>
-  <polygon class="cls-28" points="1328.64 291.47 1328.64 225.81 1262.98 225.81 1262.98 291.47 1253.82 291.47 1253.82 372.41 1337.8 372.41 1337.8 291.47 1328.64 291.47"/>
-  <rect class="cls-28" x="1027.26" y="522.52" width="236.94" height="62.58"/>
-  <rect class="cls-28" x="1014.8" y="96.33" width="249.4" height="73.82"/>
-  <rect class="cls-28" x="783.1" y="539.54" width="216.44" height="62.58"/>
-  <rect class="cls-28" x="1052.47" y="259.15" width="62.58" height="245.22"/>
-  <rect class="cls-28" x="669.11" y="284.67" width="90.14" height="159.18"/>
-  <rect class="cls-28" x="843.85" y="284.67" width="148.47" height="219.7"/>
-  <rect class="cls-28" x="504.77" y="552.6" width="254.49" height="49.52"/>
-  <rect class="cls-28" x="320.38" y="567.18" width="165.86" height="49.52"/>
-  <rect class="cls-28" x="308.22" y="469.67" width="196.54" height="49.52" transform="translate(812.99 988.85) rotate(180)"/>
-  <rect class="cls-18" x="46.68" y="417.42" width="49.52" height="149.76"/>
-  <polygon class="cls-28" points="394.12 393.76 394.12 430.34 404.6 430.34 454.11 430.34 464.59 430.34 464.59 393.76 454.11 393.76 454.11 306.37 464.59 306.37 464.59 269.79 454.11 269.79 404.6 269.79 394.12 269.79 394.12 306.37 404.6 306.37 404.6 393.76 394.12 393.76"/>
-  <rect class="cls-28" x="173.35" y="625.81" width="49.52" height="144.6"/>
-  <rect class="cls-28" x="155.36" y="770.41" width="49.52" height="148.3"/>
-  <polygon class="cls-28" points="288.18 440.2 288.18 394.64 133.55 394.64 133.55 440.2 133.55 576.29 133.55 625.81 288.18 625.81 288.18 576.29 248.08 576.29 248.08 585.03 179.12 585.03 179.12 576.29 179.12 440.2 179.12 434.13 248.08 434.13 248.08 440.2 288.18 440.2"/>
-  <path class="cls-28" d="m386.9,96.33v-4.21c-.58,0-1.15-.02-1.73-.02-75.81,0-138.41,56.55-147.93,129.77l14.18,2.5,9.4,1.66-9.59-1.69-24.19,137.22,55.64,9.81,24.19-137.22,33.23,5.86,26.9,26.9,18.83-18.83,1.06-1.06,12.61-12.61-12.61-12.61v-39.79h130.01v87.79h56.5v-87.79h56.2v-85.66h-242.71Z"/>
-  <polygon class="cls-28" points="694.62 170.15 991.3 170.15 991.3 96.33 908.61 96.33 891.77 79.49 891.77 96.33 891.37 96.33 874.53 79.49 874.53 96.33 874.12 96.33 857.28 79.49 857.28 96.33 856.88 96.33 840.04 79.49 840.04 96.33 839.63 96.33 822.79 79.49 822.79 96.33 822.39 96.33 805.55 79.49 805.55 96.33 805.14 96.33 788.3 79.49 788.3 96.33 787.9 96.33 771.06 79.49 771.06 96.33 770.65 96.33 753.81 79.49 753.81 96.33 753.41 96.33 736.57 79.49 736.57 96.33 694.62 96.33 694.62 170.15"/>
-  <polygon class="cls-18" points="1326.28 77.39 1326.28 84.51 1266.55 84.51 1266.55 74.72 1264.2 74.72 1264.2 96.57 1266.55 96.57 1266.55 86.86 1326.28 86.86 1326.28 96.33 1344.09 96.33 1344.09 77.39 1326.28 77.39"/>
-  <g>
-    <rect class="cls-18" x="259.85" y="84.51" width="90.81" height="2.35" transform="translate(610.52 171.37) rotate(180)"/>
-    <rect class="cls-18" x="235.71" y="109.83" width="50.64" height="2.35" transform="translate(372.03 -150.02) rotate(90)"/>
-  </g>
-  <text class="cls-5" transform="translate(1388.14 177.9) rotate(-90)"><tspan class="cls-17" x="0" y="0">К</tspan><tspan x="21.89" y="0">ПП</tspan></text>
-  <text class="cls-5" transform="translate(1306.94 347.04) rotate(-90)"><tspan class="cls-20" x="0" y="0">Б</tspan><tspan class="cls-21" x="21.41" y="0">У</tspan><tspan class="cls-11" x="43.21" y="0">ТЦ</tspan></text>
-  <text class="cls-5" transform="translate(722.46 396.51) rotate(-90)"><tspan class="cls-14" x="0" y="0">К</tspan><tspan x="21.77" y="0">СК</tspan></text>
-  <text class="cls-5" transform="translate(925.38 483.61) rotate(-90)"><tspan class="cls-15" x="0" y="0">С</tspan><tspan class="cls-24" x="21.77" y="0">Т</tspan><tspan class="cls-7" x="41.14" y="0">О</tspan><tspan x="65.73" y="0">ЛОВ</tspan><tspan class="cls-23" x="137.37" y="0">А</tspan><tspan x="160.97" y="0">Я</tspan></text>
-  <text class="cls-13" transform="translate(65.66 561.39) rotate(-90)"><tspan x="0" y="0">Админи</tspan><tspan class="cls-12" x="56.53" y="0">с</tspan><tspan x="63.91" y="0">т</tspan><tspan class="cls-10" x="70.22" y="0">р</tspan><tspan x="79.34" y="0">ативный</tspan><tspan class="cls-16" x="45.25" y="16.01">к</tspan><tspan x="52.75" y="16.01">орп</tspan><tspan class="cls-2" x="79.38" y="16.01">у</tspan><tspan x="86.63" y="16.01">с</tspan></text>
-  <circle class="cls-27" cx="518.06" cy="135.77" r="20.02"/>
-  <circle class="cls-27" cx="427.1" cy="292.45" r="20.02"/>
-  <circle class="cls-27" cx="479.64" cy="493.67" r="20.02"/>
-  <circle class="cls-27" cx="708.9" cy="576.94" r="20.02"/>
-  <circle class="cls-27" cx="964.81" cy="569.58" r="20.02"/>
-  <circle class="cls-27" cx="1223.28" cy="554.91" r="20.02"/>
-  <circle class="cls-27" cx="1423.14" cy="613.08" r="20.02"/>
-  <circle class="cls-27" cx="156.23" cy="455.88" r="20.02"/>
-  <circle class="cls-27" cx="460.16" cy="592.35" r="20.02"/>
-  <circle class="cls-27" cx="198.46" cy="641.91" r="20.02"/>
-  <circle class="cls-27" cx="180.12" cy="791.65" r="20.02"/>
-  <circle class="cls-27" cx="917.58" cy="135.77" r="20.85"/>
-  <circle class="cls-27" cx="1218.18" cy="135.77" r="20.85"/>
-  <circle class="cls-27" cx="1085.71" cy="302.85" r="20.02"/>
-  <text class="cls-5" transform="translate(353.41 146)"><tspan class="cls-26" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan class="cls-3" x="68.58" y="0">П</tspan><tspan class="cls-1" x="92.81" y="0">У</tspan><tspan x="114.4" y="0" xml:space="preserve">С  В</tspan></text>
-  <text class="cls-5" transform="translate(742.18 146)"><tspan class="cls-26" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan class="cls-3" x="68.58" y="0">П</tspan><tspan class="cls-1" x="92.81" y="0">У</tspan><tspan x="114.4" y="0" xml:space="preserve">С  Л2</tspan></text>
-  <text class="cls-5" transform="translate(1045.67 146)"><tspan class="cls-14" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan x="68.58" y="0">П</tspan><tspan class="cls-6" x="92.81" y="0">У</tspan><tspan x="114.4" y="0" xml:space="preserve">С  Л1</tspan></text>
-  <text class="cls-5" transform="translate(1095.53 466.71) rotate(-90)"><tspan class="cls-14" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan x="68.58" y="0">П</tspan><tspan class="cls-6" x="92.81" y="0">У</tspan><tspan x="114.4" y="0" xml:space="preserve">С  Э</tspan></text>
-  <text class="cls-5" transform="translate(438.26 421.85) rotate(-90)"><tspan class="cls-14" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan x="68.58" y="0" xml:space="preserve">П.  Б</tspan></text>
-  <text class="cls-5" transform="translate(317.35 503.71)"><tspan class="cls-26" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan class="cls-3" x="68.58" y="0">П</tspan><tspan class="cls-1" x="92.81" y="0">У</tspan><tspan x="114.4" y="0" xml:space="preserve">С  Г</tspan></text>
-  <text class="cls-5" transform="translate(330.37 599.28)"><tspan class="cls-26" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan class="cls-3" x="68.58" y="0">П.</tspan><tspan class="cls-14" x="101.31" y="0" xml:space="preserve">  </tspan><tspan x="117.28" y="0">Д</tspan></text>
-  <text class="cls-5" transform="translate(542.97 586.33)"><tspan class="cls-26" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan class="cls-3" x="68.58" y="0">П</tspan><tspan class="cls-1" x="92.81" y="0">У</tspan><tspan x="114.4" y="0" xml:space="preserve">С  П</tspan></text>
-  <text class="cls-5" transform="translate(164.75 586.57) rotate(-90)"><tspan class="cls-14" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan x="68.58" y="0" xml:space="preserve">П.  А</tspan></text>
-  <text class="cls-5" transform="translate(208.45 764.12) rotate(-90)"><tspan class="cls-14" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan x="68.58" y="0">П. Н</tspan></text>
-  <text class="cls-5" transform="translate(189.91 912.58) rotate(-90)"><tspan class="cls-14" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan x="68.58" y="0">П. К</tspan></text>
-  <text class="cls-5" transform="translate(800.47 580.1)"><tspan class="cls-26" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan class="cls-3" x="68.58" y="0">П</tspan><tspan class="cls-1" x="92.81" y="0">У</tspan><tspan x="114.4" y="0" xml:space="preserve">С  Е</tspan></text>
-  <text class="cls-5" transform="translate(1057.83 564.57)"><tspan class="cls-14" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan x="68.58" y="0">П</tspan><tspan class="cls-6" x="92.81" y="0">У</tspan><tspan x="114.4" y="0" xml:space="preserve">С  С</tspan></text>
-  <text class="cls-5" transform="translate(1299.15 623.3)"><tspan class="cls-14" x="0" y="0">К</tspan><tspan x="21.77" y="0">О</tspan><tspan class="cls-24" x="46.96" y="0">Р</tspan><tspan x="68.58" y="0">П. М</tspan></text>
-  <text class="cls-4" transform="translate(1254.29 69.62)"><tspan class="cls-8" x="0" y="0">В</tspan><tspan class="cls-22" x="22.04" y="0">Х</tspan><tspan class="cls-7" x="43.96" y="0">О</tspan><tspan class="cls-25" x="68.55" y="0">Д</tspan></text>
-  <text class="cls-4" transform="translate(257.28 69.62)"><tspan class="cls-24" x="0" y="0">В</tspan><tspan class="cls-26" x="22.04" y="0">Х</tspan><tspan class="cls-19" x="43.96" y="0">О</tspan><tspan x="68.55" y="0">Д</tspan></text>
-</svg>
+                            </style>
+                              <path
+                                d="M759.25 443.85h-22.4V552.6h22.4v-48.23h84.6v-22.4h-84.6v-38.12z"
+                                class="cls-9"
+                              />
+                              <path
+                                d="M759.75 445.85h-1v-1.5h-1.5v-1h2.5v2.5zm-6.18-1.5h-3.68v-1h3.68v1Zm-7.36 0h-3.68v-1h3.68v1Zm-8.86 1.5h-1v-2.5h2.5v1h-1.5v1.5zm0 100.87h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1V473h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm0-7.76h-1v-3.88h1v3.88Zm1.5 99.5h-2.5v-2.5h1v1.5h1.5v1zm14.72 0h-3.68v-1h3.68v1Zm-7.36 0h-3.68v-1h3.68v1Zm13.54 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.52h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Zm0-8.04h-1v-4.02h1v4.02Zm0-8.05h-1v-2.5h2.5v1h-1.5v1.5zm78.26-1.5h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm75.46 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.18h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Zm0-7.36h-1v-1.5h-1.5v-1h2.5v2.5zm-6.34-1.5h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.68 0h-3.84v-1h3.84v1Zm-7.64 0h-2.5v-2.5h1v1.5h1.5v1zm-1.5-6.29h-1v-3.79h1v3.79Zm0-7.58h-1v-3.79h1v3.79Zm0-7.58h-1v-3.79h1v3.79Zm0-7.58h-1v-3.79h1v3.79Z"
+                                class="cls-18"
+                              />
+                              <path
+                                d="M231.93 394.64h21.55l4.86-27.57-20.89-3.69-5.52 31.26z"
+                                class="cls-9"
+                              />
+                              <path
+                                d="M233.93 395.14h-2.59l.45-2.56.98.17-.24 1.39h1.4v1zm14.04 0h-3.51v-1h3.51v1Zm-7.02 0h-3.51v-1h3.51v1Zm12.94 0h-2.41v-1h1.58l.27-1.56.98.17-.42 2.39zm1.02-5.76-.98-.17.6-3.38.98.17-.6 3.38Zm1.19-6.75-.98-.17.6-3.38.98.17-.6 3.38Zm1.19-6.75-.98-.17.6-3.38.98.17-.6 3.38Zm1.19-6.76-.98-.17.26-1.48-1.48-.26.17-.98 2.47.43-.44 2.46zm-5.59-2.51-3.39-.6.17-.98 3.39.6-.17.98Zm-6.78-1.2-3.39-.6.17-.98 3.39.6-.17.98Zm-8.52.03-.98-.17.43-2.47 2.46.44-.17.98-1.48-.26-.26 1.48zm-4.13 23.41-.98-.17.69-3.9.98.17-.69 3.9Zm1.38-7.8-.98-.17.69-3.9.98.17-.69 3.9Zm1.38-7.8-.98-.17.69-3.9.98.17-.69 3.9Z"
+                                class="cls-18"
+                              />
+                              <path d="M999.54 552.75h27.72v22.18h-27.72z" class="cls-9" />
+                              <path
+                                d="M1000.04 554.75h-1v-2.5h2.5v1h-1.5v1.5zm0 14.54h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Zm1.5 13.4h-2.5v-2.5h1v1.5h1.5v1zm20.33 0h-3.39v-1h3.39v1Zm-6.78 0h-3.39v-1h3.39v1Zm-6.78 0h-3.39v-1h3.39v1Zm19.45 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.13h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Zm0-7.27h-1v-1.5h-1.5v-1h2.5v2.5zm-5.89-1.5h-3.39v-1h3.39v1Zm-6.78 0h-3.39v-1h3.39v1Zm-6.78 0h-3.39v-1h3.39v1Z"
+                                class="cls-18"
+                              />
+                              <path d="M759.86 556.93h23.24v22.18h-23.24z" class="cls-9" />
+                              <path
+                                d="M761.86 579.6h-2.5v-2.5h1v1.5h1.5v1zm15.39 0h-3.85v-1h3.85v1Zm-7.7 0h-3.85v-1h3.85v1Zm14.05 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.13h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Zm0-7.27h-1v-1.5h-1.5v-1h2.5v2.5zm-6.35-1.5h-3.85v-1h3.85v1Zm-7.7 0h-3.85v-1h3.85v1Zm-9.19 1.5h-1v-2.5h2.5v1h-1.5v1.5zm0 14.54h-1v-3.63h1v3.63Zm0-7.27h-1v-3.63h1v3.63Z"
+                                class="cls-18"
+                              />
+                              <path d="M486.24 581h18.53v21.11h-18.53z" class="cls-9" />
+                              <path
+                                d="M488.24 602.61h-2.5v-2.5h1v1.5h1.5v1zm4.84-1h4.84v1h-4.84zm12.19 1h-2.5v-1h1.5v-1.5h1v2.5zm0-5.92h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Zm0-6.85h-1v-1.5h-1.5v-1h2.5v2.5zm-12.19-2.5h4.84v1h-4.84zm-6.34 2.5h-1v-2.5h2.5v1h-1.5v1.5zm0 13.69h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Z"
+                                class="cls-18"
+                              />
+                              <path d="M288.18 581.8h32.2v21.11h-32.2z" class="cls-9" />
+                              <path
+                                d="M290.18 603.41h-2.5v-2.5h1v1.5h1.5v1zm24.17 0h-4.03v-1h4.03v1Zm-8.06 0h-4.03v-1h4.03v1Zm-8.06 0h-4.03v-1h4.03v1Zm22.65 0h-2.5v-1h1.5v-1.5h1v2.5zm0-5.92h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Zm0-6.85h-1v-1.5h-1.5v-1h2.5v2.5zm-6.53-1.5h-4.03v-1h4.03v1Zm-8.06 0h-4.03v-1h4.03v1Zm-8.06 0h-4.03v-1h4.03v1Zm-9.55 1.5h-1v-2.5h2.5v1h-1.5v1.5zm0 13.69h-1v-3.42h1v3.42Zm0-6.84h-1v-3.42h1v3.42Z"
+                                class="cls-18"
+                              />
+                              <path d="M629.62 101.61h65.01v22.4h-65.01z" class="cls-9" />
+                              <path
+                                d="M631.62 124.51h-2.5v-2.5h1v1.5h1.5v1zm56.94 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm55.34 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.18h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Zm0-7.36h-1v-1.5h-1.5v-1h2.5v2.5zm-6.56-1.5h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-8.13 0h-4.07v-1h4.07v1Zm-9.66 1.5h-1v-2.5h2.5v1h-1.5v1.5zm0 14.72h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Z"
+                                class="cls-18"
+                              />
+                              <path d="M991.3 96.33h23.5v22.4h-23.5z" class="cls-9" />
+                              <path
+                                d="M1015.3 98.33h-1v-1.5h-1.5v-1h2.5v2.5zm-6.4-1.5h-3.9v-1h3.9v1Zm-7.8 0h-3.9v-1h3.9v1Zm-9.3 1.5h-1v-2.5h2.5v1h-1.5v1.5zm0 14.72h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Zm1.5 13.54h-2.5v-2.5h1v1.5h1.5v1zm15.6 0h-3.9v-1h3.9v1Zm-7.8 0h-3.9v-1h3.9v1Zm14.2 0h-2.5v-1h1.5v-1.5h1v2.5zm0-6.18h-1v-3.68h1v3.68Zm0-7.36h-1v-3.68h1v3.68Z"
+                                class="cls-18"
+                              />
+                              <path d="M1290.15 581.8h157.52v62.58h-157.52z" class="building" />
+                              <path d="M1344.09 96.33h70.48v92.95h-70.48z" class="cls-18" />
+                              <path
+                                d="M1328.64 291.47v-65.66h-65.66v65.66h-9.16v80.94h83.98v-80.94h-9.16zm-301.38 231.05h236.94v62.58h-236.94zM1014.8 96.33h249.4v73.82h-249.4zM783.1 539.54h216.44v62.58H783.1zm269.37-280.39h62.58v245.22h-62.58zm-383.36 25.52h90.14v159.18h-90.14zm174.74 0h148.47v219.7H843.85zM504.77 552.6h254.49v49.52H504.77zm-184.39 14.58h165.86v49.52H320.38zm184.39-48H308.23v-49.52h196.54z"
+                                class="building"
+                              />
+                              <path d="M46.68 417.42H96.2v149.76H46.68z" class="cls-18" />
+                              <path
+                                d="M394.12 393.76v36.58h70.47v-36.58h-10.48v-87.39h10.48v-36.58h-70.47v36.58h10.48v87.39h-10.48zM173.35 625.81h49.52v144.6h-49.52zm-17.99 144.6h49.52v148.3h-49.52zM288.18 440.2v-45.56H133.55v231.17h154.63v-49.52h-40.1v8.74h-68.96v-150.9h68.96v6.07h40.1z"
+                                class="building"
+                              />
+                              <path
+                                d="M386.9 96.33v-4.21c-.58 0-1.15-.02-1.73-.02-75.81 0-138.41 56.55-147.93 129.77l14.18 2.5 9.4 1.66-9.59-1.69-24.19 137.22 55.64 9.81 24.19-137.22 33.23 5.86 26.9 26.9 18.83-18.83 1.06-1.06 12.61-12.61-12.61-12.61v-39.79H516.9v87.79h56.5v-87.79h56.2V96.35H386.89Zm307.72 73.82H991.3V96.33h-82.69l-16.84-16.84v16.84h-.4l-16.84-16.84v16.84h-.41l-16.84-16.84v16.84h-.4l-16.84-16.84v16.84h-.41l-16.84-16.84v16.84h-.4l-16.84-16.84v16.84h-.41L788.3 79.49v16.84h-.4l-16.84-16.84v16.84h-.41l-16.84-16.84v16.84h-.4l-16.84-16.84v16.84h-41.95v73.82z"
+                                class="building"
+                              />
+                              <path
+                                d="M1326.28 77.39v7.12h-59.73v-9.79h-2.35v21.85h2.35v-9.71h59.73v9.47h17.81V77.39h-17.81zm-975.61 9.47h-90.81v-2.35h90.81z"
+                                class="cls-18"
+                              />
+                              <path d="M262.2 85.69v50.64h-2.35V85.69z" class="cls-18" />
+                              <text class="building-name" transform="rotate(-90 783.02 -605.12)">
+                                <tspan x="0" y="0" letter-spacing="-.02em">КПП</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 826.99 -479.95)">
+                                <tspan x="0" y="0" letter-spacing="-.03em">БУТЦ</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 559.485 -162.975)">
+                                <tspan x="0" y="0">КСК</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 704.495 -220.885)">
+                                <tspan x="0" y="0" letter-spacing="0">СТОЛОВАЯ</tspan>
+                              </text>
+                              <text
+                                fill="#fff"
+                                font-size="13.35"
+                                transform="rotate(-90 313.525 247.865)"
+                              >
+                                <tspan x="0" y="0">Административный</tspan>
+                                <tspan x="50" y="16">корпус</tspan>
+                              </text>
+                              <circle cx="518.06" cy="135.77" r="20.02" class="building-frame" />
+                              <circle cx="427.1" cy="292.45" r="20.02" class="building-frame" />
+                              <circle cx="479.64" cy="493.67" r="20.02" class="building-frame" />
+                              <circle cx="708.9" cy="576.94" r="20.02" class="building-frame" />
+                              <circle cx="964.81" cy="569.58" r="20.02" class="building-frame" />
+                              <circle cx="1223.28" cy="554.91" r="20.02" class="building-frame" />
+                              <circle cx="1423.14" cy="613.08" r="20.02" class="building-frame" />
+                              <circle cx="156.23" cy="455.88" r="20.02" class="building-frame" />
+                              <circle cx="460.16" cy="592.35" r="20.02" class="building-frame" />
+                              <circle cx="198.46" cy="641.91" r="20.02" class="building-frame" />
+                              <circle cx="180.12" cy="791.65" r="20.02" class="building-frame" />
+                              <circle cx="917.58" cy="135.77" r="20.85" class="building-frame" />
+                              <circle cx="1218.18" cy="135.77" r="20.85" class="building-frame" />
+                              <circle cx="1085.71" cy="302.85" r="20.02" class="building-frame" />
+                              <text class="building-name" transform="translate(353.41 146)">
+                                <tspan x="0" y="0">КОРПУС В</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(742.18 146)">
+                                <tspan x="0" y="0">КОРПУС Л2</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(1045.67 146)">
+                                <tspan x="0" y="0">КОРПУС Л1</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 781.12 -314.41)">
+                                <tspan x="0" y="0">КОРПУС Э</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 430.055 -8.205)">
+                                <tspan x="0" y="0">КОРП. Б</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(317.35 503.71)">
+                                <tspan x="0" y="0">КОРПУС Г</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(330.37 599.28)">
+                                <tspan x="0" y="0">КОРП. Д</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(542.97 586.33)">
+                                <tspan x="0" y="0">КОРПУС П</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 375.66 210.91)">
+                                <tspan x="0" y="0">КОРП. А</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 486.285 277.835)">
+                                <tspan x="0" y="0">КОРП. Н</tspan>
+                              </text>
+                              <text class="building-name" transform="rotate(-90 551.245 361.335)">
+                                <tspan x="0" y="0">КОРП. К</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(800.47 580.1)">
+                                <tspan x="0" y="0">КОРПУС Е</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(1057.83 564.57)">
+                                <tspan x="0" y="0">КОРПУС С</tspan>
+                              </text>
+                              <text class="building-name" transform="translate(1299.15 623.3)">
+                                <tspan x="0" y="0">КОРП. М</tspan>
+                              </text>
+                              <text class="building-exit" transform="translate(1254.29 69.62)">
+                                <tspan x="0" y="0" letter-spacing="-.01em">ВХОД</tspan>
+                              </text>
+                              <text class="building-exit" transform="translate(257.28 69.62)">
+                                <tspan x="0" y="0">ВХОД</tspan>
+                              </text>
+                            </svg>
