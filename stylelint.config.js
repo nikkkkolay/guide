@@ -3,6 +3,8 @@ export default {
   plugins: ["stylelint-order"],
   ignoreFiles: ["dist/**/*"],
   rules: {
+    "selector-class-pattern": null,
+    "no-descending-specificity": null,
     "order/properties-order": [
       [
         "display",

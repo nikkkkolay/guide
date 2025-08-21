@@ -390,7 +390,7 @@ header .content {
   border-color: #0097fa;
 }
 
-.accelerator a {
+.accelerator .accelerator__link {
   color: #fff;
 }
 
@@ -449,6 +449,10 @@ header .content {
   height: 100svh;
   background-color: white;
   z-index: 9999;
+}
+
+.modal-body h2 {
+  color: #0064be;
 }
 
 #loader-overlay h2 {
@@ -529,10 +533,6 @@ footer .social svg {
 .modal-footer,
 .modal-header {
   border: none !important;
-}
-
-.modal-body h2 {
-  color: #0064be;
 }
 
 @media (width >= 75rem) {
