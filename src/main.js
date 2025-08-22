@@ -9,8 +9,6 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 
 gsap.registerPlugin(ScrollTrigger, SplitText, ScrollSmoother);
 
-const scrollUpBtn = document.querySelector(".scroll-up-btn");
-
 if (window.innerWidth > 768) {
   ScrollSmoother.create({
     smooth: 1,
@@ -18,24 +16,77 @@ if (window.innerWidth > 768) {
   });
 }
 
+const words = ["Открывай.", "Создавай.", "Достигай."];
+
+let overlayTl = gsap.timeline();
+const splitText = gsap.utils.toArray(".split");
+const wordElement = document.getElementById("hero-word");
+const scrollUpBtn = document.querySelector(".scroll-up-btn");
+
+let split = SplitText.create(splitText, {
+  type: "words,lines",
+  mask: "words",
+});
+
+document.body.style.overflow = "hidden";
+
+words.forEach((word) => {
+  overlayTl.to(wordElement, {
+    duration: 0.3,
+    opacity: 0,
+    scale: 0.7,
+    ease: "power2.in",
+    onComplete: () => (wordElement.textContent = word),
+  });
+
+  overlayTl.fromTo(
+    wordElement,
+    { opacity: 0, scale: 1.1 },
+    {
+      duration: 0.35,
+      opacity: 1,
+      scale: 1,
+      ease: "power2.out",
+    }
+  );
+
+  overlayTl.to(wordElement, { duration: 0.6 });
+});
+
+overlayTl.to("#loader-overlay", {
+  opacity: 0,
+  duration: 0.3,
+  ease: "power1.out",
+  onComplete: () => {
+    document.getElementById("loader-overlay").remove();
+    document.body.style.overflow = "";
+    gsap.fromTo(".root", { opacity: 0 }, { opacity: 1, duration: 1, ease: "power2.out" });
+    gsap.fromTo(
+      ".content",
+      { opacity: 0, y: 70 },
+      { opacity: 1, y: 0, duration: 1, ease: "power2.out" }
+    );
+    gsap.from(split.words, {
+      duration: 1,
+      y: 100,
+      autoAlpha: 0,
+      stagger: 0.05,
+    });
+  },
+});
+
 window.addEventListener("load", () => {
   const strength = 15;
-  const words = ["Открывай.", "Создавай.", "Достигай."];
 
   const magnets = document.querySelectorAll(".magnet");
-  const wordElement = document.getElementById("hero-word");
   const header = document.querySelector("header");
   const dates = document.querySelectorAll(".date");
   const dot = document.querySelector(".dot");
   const slogan = document.querySelector(".slogan h2");
   const AdvantagesListIcon = document.querySelector(".advantages__list-icons");
-
   const infoBlockBg = gsap.utils.toArray(".info-block__bg");
   const stars = gsap.utils.toArray(".slogan .star");
-  const splitText = gsap.utils.toArray(".split");
   const advantages = gsap.utils.toArray(".advantages__icon");
-
-  let overlayTl = gsap.timeline();
 
   infoBlockBg.forEach((el) => {
     gsap.fromTo(
@@ -67,10 +118,11 @@ window.addEventListener("load", () => {
       { scale: 1 },
       {
         scale: 1.1,
-        duration: 0.2,
+        duration: 0.3,
         ease: "power2.out",
         yoyo: true,
         repeat: 1,
+        yoyoEase: true,
       }
     );
   });
@@ -163,58 +215,6 @@ window.addEventListener("load", () => {
         ease: "power4.out",
       });
     });
-  });
-
-  let split = SplitText.create(splitText, {
-    type: "words,lines",
-    mask: "words",
-  });
-
-  document.body.style.overflow = "hidden";
-
-  words.forEach((word) => {
-    overlayTl.to(wordElement, {
-      duration: 0.3,
-      opacity: 0,
-      scale: 0.7,
-      ease: "power2.in",
-      onComplete: () => (wordElement.textContent = word),
-    });
-
-    overlayTl.fromTo(
-      wordElement,
-      { opacity: 0, scale: 1.1 },
-      {
-        duration: 0.35,
-        opacity: 1,
-        scale: 1,
-        ease: "power2.out",
-      }
-    );
-
-    overlayTl.to(wordElement, { duration: 0.6 });
-  });
-
-  overlayTl.to("#loader-overlay", {
-    opacity: 0,
-    duration: 0.3,
-    ease: "power1.out",
-    onComplete: () => {
-      document.getElementById("loader-overlay").remove();
-      document.body.style.overflow = "";
-      gsap.fromTo(".root", { opacity: 0 }, { opacity: 1, duration: 1, ease: "power2.out" });
-      gsap.fromTo(
-        ".content",
-        { opacity: 0, y: 70 },
-        { opacity: 1, y: 0, duration: 1, ease: "power2.out" }
-      );
-      gsap.from(split.words, {
-        duration: 1,
-        y: 100,
-        autoAlpha: 0,
-        stagger: 0.05,
-      });
-    },
   });
 });
 

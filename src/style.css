@@ -42,8 +42,6 @@ header .content {
   color: #3328c0;
   border-color: #3328c0;
   border-radius: 1.25em;
-  font-family: Unbounded, sans-serif;
-  font-weight: 200;
 }
 
 .btn-primary {
@@ -120,8 +118,7 @@ header .content {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.8em;
-  font-family: Unbounded, sans-serif;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .info-block__bg {
@@ -137,7 +134,6 @@ header .content {
 
 .advantages__icon {
   width: 5rem;
-  filter: drop-shadow(0 0 8px rgb(0 130 241 / 90%));
 }
 
 .slogan {
@@ -145,8 +141,8 @@ header .content {
 }
 
 .slogan h2 {
-  font-weight: 800;
   font-size: 2.2rem;
+  font-weight: 800;
 }
 
 .slogan .star {
@@ -172,7 +168,6 @@ header .content {
 .cards__wrapper {
   position: relative;
   aspect-ratio: 19/10;
-  filter: drop-shadow(0 0 8px rgb(136 0 225 / 90%));
 }
 
 .cards__wrapper img {
@@ -217,8 +212,7 @@ header .content {
 }
 
 .timeline strong {
-  font-family: Unbounded, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .dates .date {
@@ -341,17 +335,13 @@ header .content {
   color: #fff;
   background: linear-gradient(to right, #042780, #8000d5);
   border-radius: 0.5em;
-  min-width: 1.5rem;
+  min-width: 1.8rem;
   text-align: center;
 }
 
 .stuck-blocks {
   border-radius: 0.8em;
   overflow: hidden;
-}
-
-.stuck-blocks h3 {
-  font-family: Unbounded, sans-serif;
 }
 
 .stuck-blocks__wrapper {
@@ -474,6 +464,10 @@ header .content {
 .modal-body h2 {
   color: #3328c0;
   font-family: Unbounded, sans-serif;
+}
+
+.btn-close:focus {
+  box-shadow: none;
 }
 
 #loader-overlay h2 {
