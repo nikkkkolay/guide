@@ -212,7 +212,7 @@ header .content {
 }
 
 .timeline strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .dates .date {
@@ -231,15 +231,6 @@ header .content {
   background-color: #fff;
   border-radius: 50%;
   content: "";
-}
-
-.dates .date span {
-  font-size: 0.95rem;
-  color: #b5b5b5;
-}
-
-.dates .date p {
-  margin: 0.5rem 0 0;
 }
 
 .line {
@@ -347,6 +338,7 @@ header .content {
 .stuck-blocks__wrapper {
   position: relative;
   color: #fff;
+  text-wrap: balance;
   z-index: 100;
 }
 
