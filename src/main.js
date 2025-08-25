@@ -23,11 +23,6 @@ const splitText = gsap.utils.toArray(".split");
 const wordElement = document.getElementById("hero-word");
 const scrollUpBtn = document.querySelector(".scroll-up-btn");
 
-let split = SplitText.create(splitText, {
-  type: "words,lines",
-  mask: "words",
-});
-
 document.body.style.overflow = "hidden";
 
 words.forEach((word) => {
@@ -66,11 +61,18 @@ overlayTl.to("#loader-overlay", {
       { opacity: 0, y: 70 },
       { opacity: 1, y: 0, duration: 1, ease: "power2.out" }
     );
-    gsap.from(split.words, {
-      duration: 1,
-      y: 100,
-      autoAlpha: 0,
-      stagger: 0.05,
+    document.fonts.ready.then(() => {
+      let split = SplitText.create(splitText, {
+        type: "words,lines",
+        mask: "words",
+      });
+
+      gsap.from(split.words, {
+        duration: 1,
+        y: 100,
+        autoAlpha: 0,
+        stagger: 0.05,
+      });
     });
   },
 });
