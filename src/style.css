@@ -272,9 +272,40 @@ header .content {
   margin-top: 0.8rem;
 }
 
-.address p {
-  margin: 0;
-  font-size: 0.95rem;
+.address__link {
+  display: block;
+  padding: 0.3125em 0.5125em;
+  margin: 0.4em 0;
+  font-size: 0.9rem;
+  color: #0064be;
+  border: 1px solid #0064be;
+  border-radius: 0.5em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.build__body {
+  fill: #0064be;
+  transition:
+    fill 0.3s ease,
+    stroke 0.3s ease;
+}
+
+.build__body.highlight,
+.build__body.active {
+  fill: #ff1380;
+  stroke: #1266a3;
+  stroke-width: 1px;
+}
+
+.address__link.highlight,
+.address__link.active,
+.address__link:hover {
+  color: #fff;
+  border: 1px solid #ff1380;
+  background-color: #ff1380;
 }
 
 .transport {
@@ -557,7 +588,7 @@ footer .social svg {
 
   .south-map .address {
     margin-left: auto;
-    margin-top: -9rem;
+    margin-top: -10rem;
   }
 
   .north-map .address {

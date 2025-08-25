@@ -234,3 +234,30 @@ document.querySelectorAll(".accordion-collapse").forEach((collapseEl) => {
     ScrollTrigger.refresh();
   });
 });
+
+document.querySelectorAll(".address__link").forEach((link) => {
+  const build = document.querySelector(`.build[data-target="${link.id}"] .build__body`);
+
+  link.addEventListener("mouseenter", () => build?.classList.add("highlight"));
+  link.addEventListener("mouseleave", () => build?.classList.remove("highlight"));
+
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    document.querySelectorAll(".build__body").forEach((b) => b.classList.remove("active"));
+    document.querySelectorAll(".address__link").forEach((l) => l.classList.remove("active"));
+
+    build?.classList.add("active");
+    link.classList.add("active");
+  });
+});
+
+document.addEventListener("click", (e) => {
+  const link = e.target.closest(".address__link");
+  const build = e.target.closest(".build");
+
+  if (!link && !build) {
+    document.querySelectorAll(".build__body").forEach((b) => b.classList.remove("active"));
+    document.querySelectorAll(".address__link").forEach((l) => l.classList.remove("active"));
+  }
+});
